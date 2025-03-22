@@ -1,7 +1,7 @@
 const ATTACK_VALUE = 14;
 const STRONG_ATTACK_VALUE = 20;
 const MONSTER_ATTACK_VALUE = 22;
-const HEAL_VALUE = 10;
+const HEAL_VALUE = 14;
 
 
 const MODE_ATTACK = "ATTACK"; //MODE_ATTACK = 0
