@@ -1,0 +1,127 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background: #2c2c2c;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 1rem 0.5rem;
+}
+h1{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  text-align: center;
+  color: #eee;
+}
+
+progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 80%;
+  height: 2rem;
+  color: #ff0062;
+  border: 2px solid #020202;
+}
+
+progress[value]::-webkit-progress-bar,
+progress[value] {
+  background-color: #eee;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image: linear-gradient(to right, red , green);
+  transition: all 0.2s ease-out;
+}
+
+progress[value]::-moz-progress-bar {
+  background-color: #a927f5;
+  transition: all 0.2s ease-out;
+}
+
+button {
+  font: inherit;
+  background: #ff0062;
+  border: 1px solid #ff0062;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background: #a927f5;
+  border-color: #a927f5;
+}
+
+#health-levels{
+  margin: 2rem auto;
+  width: 20rem;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(to right, red , rgb(255, 149, 0));
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  width: 20rem;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(to left, red , rgb(255, 149, 0));
+}
+
+#bonus-life {
+  font-weight: bold;
+  color: white;
+  background: #06c620;
+  border: 1px solid #030303;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 0.5rem;
+}
+#heal-btn{
+  background: #06c620;
+}
+.intro{
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-size: 20pt;
+  color: #ff0062;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  width: 20rem;
+  font-weight: normal;
+  
+}
+.win-counter{
+  font-weight: bold;
+  color: white;
+  background: #077b14;
+  border: 1px solid #030303;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 0.5rem;
+}
+img{
+  padding: .5rem;
+}
