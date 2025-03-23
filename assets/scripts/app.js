@@ -155,6 +155,7 @@ function reset() {
   currentMonsterHealth = chosenMaxLife;
   currentPlayerHealth = chosenMaxLife;
   clickCount = 0
+  strongClicks = 0
   resetGame(chosenMaxLife);
 }
 
